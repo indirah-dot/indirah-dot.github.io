@@ -4,44 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
-    <title>The Sovereign Archive | indirah-dot</title>
+    <title>Sovereign Archive</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", serif; line-height: 1.6; max-width: 650px; margin: 40px auto; padding: 0 20px; color: #111; background: #fff; }
-        header { border-bottom: 2px solid #000; margin-bottom: 3rem; padding-bottom: 1rem; }
-        h1 { font-size: 1.5rem; letter-spacing: 0.05rem; text-transform: uppercase; }
-        .archive-entry { margin-bottom: 4rem; }
-        .date { font-family: monospace; font-size: 0.9rem; color: #666; display: block; margin-bottom: 0.5rem; }
-        a { color: #000; text-decoration: underline; text-underline-offset: 3px; }
-        a:hover { color: #555; }
-        footer { margin-top: 10rem; padding-bottom: 4rem; border-top: 1px dashed #ccc; padding-top: 2rem; }
-        .meta-link { text-align: center; font-size: 0.8rem; letter-spacing: 0.02rem; }
-        .meta-link a { text-decoration: none; color: #888; }
-        .meta-link a:hover { color: #111; text-decoration: underline; }
+        body { 
+            font-family: -apple-system, system-ui, sans-serif; 
+            line-height: 1.6; 
+            max-width: 600px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            color: #111; 
+            background: #fff; 
+        }
+        h1 { 
+            font-size: 1.8rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0.1em; 
+            border-bottom: 3px solid #000; 
+            padding-bottom: 10px;
+        }
+        .content { margin-top: 2.5rem; }
+        .archive-link {
+            display: block;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #eee;
+            text-decoration: none;
+            color: #111;
+            transition: background 0.2s;
+        }
+        .archive-link:hover { background: #f9f9f9; border-color: #ccc; }
+        .archive-link h2 { margin: 0; font-size: 1.2rem; text-decoration: underline; }
+        .archive-link p { margin: 0.5rem 0 0; font-size: 0.9rem; color: #555; }
+        
+        footer { 
+            margin-top: 8rem; 
+            padding-top: 20px; 
+            border-top: 1px dashed #ccc; 
+            text-align: center; 
+        }
+        .meta-link { 
+            font-size: 0.8rem; 
+            color: #666; 
+            text-decoration: none; 
+        }
+        .meta-link:hover { color: #000; text-decoration: underline; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>The Sovereign Archive</h1>
-        <p>A zero-JS, high-performance repository for technical history and networking notes.</p>
+        <h1>SOVEREIGN</h1>
     </header>
 
-    <main>
-        <article class="archive-entry">
-            <span class="date">1969-10-29</span>
-            <h2>Mom’s Networking Notes: Fireman’s Fund</h2>
-            <p>Notes regarding the early implementation of wide-area networking and system analysis in San Francisco...</p>
-            <a href="#">Read the full entry →</a>
-        </article>
-    </main>
+    <div class="content">
+        <p>A minimalist, zero-JS environment for technical history and digital autonomy.</p>
+        
+        <a href="https://medium.com/@indirah/moms-networking-notes-600985223c91" class="archive-link">
+            <h2>Mom’s Networking Notes (1969)</h2>
+            <p>An archival project documenting early systems analysis and wide-area networking at Fireman’s Fund.</p>
+        </a>
+    </div>
 
     <footer>
-        <div class="meta-link">
-            <a href="meta.html">[ View the "Zero-JS" Build Process ]</a>
-        </div>
-        <p style="text-align: center; font-size: 0.7rem; color: #aaa; margin-top: 1.5rem;">
-            Hand-authored in San Diego, 2026.
-        </p>
+        <a href="meta.html" class="meta-link">[ VIEW BUILD LOG & ASSETS ]</a>
+        <p style="font-size: 0.7rem; color: #999; margin-top: 10px;">SAN DIEGO 2026</p>
     </footer>
 
 </body>
