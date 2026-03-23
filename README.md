@@ -1,16 +1,14 @@
-# indirah-dot.github.io
+# Mom's Networking Notes
 
-### **Minimalist Technical Archive & Documentation**
+### **Historical Technical Archive**
 > **Guiding Principle:** Zero-JavaScript. Zero-Bloat. Zero-External Dependencies.
 
 ---
 
 ## 🛠 System Recovery Seed (`index.html`)
-If the site breaks, paste this code into `index.html`. It points to the internal `favicon.png`.
-
 ```html
 <!DOCTYPE html>
-<title>Indirah-Dot</title>
+<title>Mom's Networking Notes | 1969</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <style>
   body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;line-height:1.6;color:#222}
@@ -19,7 +17,7 @@ If the site breaks, paste this code into `index.html`. It points to the internal
   footer{border-top:1px solid #ddd;border-bottom:0;margin-top:50px;font-size:12px}
 </style>
 <header>
-  <h1>Indirah-Dot</h1>
+  <h1>Mom's Networking Notes</h1>
   <nav><a href="index.html">Home</a><a href="meta.html">Meta</a></nav>
 </header>
 <p>Technical archive. Static. No scripts. No bloat.</p>
