@@ -3,77 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Sovereign Build Log | indirah-dot</title>
+    <title>Sovereign Build: Assets Archive | indirah-dot</title>
     <style>
-        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background: #fafafa; }
-        nav { margin-bottom: 50px; }
-        h1 { font-size: 2.2rem; letter-spacing: -0.02em; border-bottom: 2px solid #000; padding-bottom: 10px; }
-        h2 { margin-top: 3.5rem; color: #000; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 2rem; }
-        .item { background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        img { max-width: 100%; height: auto; border-radius: 4px; display: block; }
-        .caption { font-size: 0.8rem; color: #666; margin-top: 10px; font-family: monospace; border-top: 1px solid #eee; padding-top: 8px; }
-        code { background: #eee; padding: 2px 5px; border-radius: 4px; }
-        a { color: #0066cc; text-decoration: none; }
-        footer { margin-top: 5rem; font-size: 0.8rem; color: #999; text-align: center; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; background: #fff; }
+        nav { margin-bottom: 50px; font-weight: bold; }
+        h1 { font-size: 2rem; letter-spacing: -0.02em; border-bottom: 3px solid #000; padding-bottom: 10px; margin-bottom: 2rem; }
+        .intro { margin-bottom: 3rem; font-size: 1.1rem; color: #555; }
+        .gallery { display: flex; flex-direction: column; gap: 40px; }
+        .asset-card { border: 1px solid #eee; padding: 20px; border-radius: 12px; background: #fafafa; }
+        img { max-width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .file-label { display: block; margin-top: 15px; font-family: monospace; font-size: 0.85rem; color: #888; text-align: right; }
+        footer { margin-top: 6rem; padding: 40px 0; border-top: 1px solid #eee; text-align: center; font-size: 0.8rem; color: #aaa; }
+        a { color: #000; text-decoration: none; border-bottom: 1px solid #ccc; }
+        a:hover { border-bottom: 1px solid #000; }
     </style>
 </head>
 <body>
-    <nav><a href="index.html">← Back to Archive</a></nav>
+    <nav><a href="index.html">← RETURN TO ARCHIVE</a></nav>
     
-    <h1>The Sovereign Build Log</h1>
-    <p>This page is a transparent look at the <code>/assets</code> folder. It documents the push for extreme minimalism, stripping away the noise of modern social media in favor of a 5-line, zero-JS sovereign site.</p>
+    <h1>Sovereign Build: Assets</h1>
+    <p class="intro">A chronological display of the raw files used to construct this zero-JS environment. This is the "paper trail" of moving from a conceptual prompt to a live, sovereign site.</p>
 
     <div class="gallery">
-        <div class="item">
-            <img src="assets/IMG_6023.jpg" alt="Initial prompt">
-            <p class="caption">IMG_6023.jpg: The "Rule the Web" spark. Setting the intention for digital authority and scale.</p>
+
+        <div class="asset-card">
+            <img src="assets/IMG_6043.pdf" alt="Live site view in Facebook browser">
+            <span class="file-label">IMG_6043.pdf: The 'SOVEREIGN' header live in-app.</span>
         </div>
 
-        <div class="item">
-            <img src="assets/IMG_6019.PNG" alt="Instagram Noise">
-            <p class="caption">IMG_6019.PNG: Identifying the problem. The "Noise" of modern suggested feeds.</p>
+        <div class="item-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px;">
+            <div class="asset-card">
+                <img src="assets/IMG_6023.jpg" alt="Initial Prompt">
+                <span class="file-label">IMG_6023.jpg</span>
+            </div>
+            <div class="asset-card">
+                <img src="assets/IMG_6025.PNG" alt="The 5-line code floor">
+                <span class="file-label">IMG_6025.PNG</span>
+            </div>
         </div>
 
-        <div class="item">
-            <img src="assets/IMG_6020.PNG" alt="Quiet Mode Tips">
-            <p class="caption">IMG_6020.PNG: Researching "Quiet Mode" and ways to bypass algorithm interference.</p>
+        <div class="asset-card">
+            <img src="assets/IMG_6027.PNG" alt="GitHub mobile setup">
+            <span class="file-label">IMG_6027.PNG: Mobile deployment workflow.</span>
         </div>
 
-        <div class="item">
-            <img src="assets/IMG_6021.PNG" alt="Request for simple code">
-            <p class="caption">IMG_6021.PNG: The pivot. Rejecting complexity for "10 lines or less."</p>
+        <div class="asset-card">
+            <img src="assets/IMG_6028.PNG" alt="Commit confirmation">
+            <span class="file-label">IMG_6028.PNG: Final repository state.</span>
         </div>
 
-        <div class="item">
-            <img src="assets/IMG_6024.PNG" alt="9 line website">
-            <p class="caption">IMG_6024.PNG: The first draft. A functional website in 9 lines.</p>
-        </div>
-
-        <div class="item">
-            <img src="assets/IMG_6025.PNG" alt="The 5 line floor">
-            <p class="caption">IMG_6025.PNG: The "Absolute Floor." Stripping everything down to exactly 5 lines.</p>
-        </div>
-
-        <div class="item">
-            <img src="assets/IMG_6026.PNG" alt="GitHub App setup">
-            <p class="caption">IMG_6026.PNG: Moving to mobile. Setting up the GitHub App for iPhone.</p>
-        </div>
-
-        <div class="item">
-            <img src="assets/IMG_6027.PNG" alt="One-handed setup">
-            <p class="caption">IMG_6027.PNG: The "One-Handed" setup instructions. Cloud editing from anywhere.</p>
-        </div>
-
-        <div class="item">
-            <img src="assets/IMG_6028.PNG" alt="Final commit">
-            <p class="caption">IMG_6028.PNG: Final confirmation. The site is live, free, and incredibly fast.</p>
-        </div>
     </div>
 
     <footer>
-        Hand-authored in San Diego, 2026. <br>
-        All assets stored in <code>indirah-dot.github.io/assets/</code>
+        <p>ALL ASSETS HOSTED LOCALLY IN /ASSETS/ — NO EXTERNAL TRACKING.</p>
+        <p>SAN DIEGO, 2026</p>
     </footer>
 </body>
 </html>
