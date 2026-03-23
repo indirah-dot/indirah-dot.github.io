@@ -4,51 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1969</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='black'/%3E%3C/svg%3E">
+  <meta name="author" content="Andy & Gemini">
   
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='black'/%3E%3C/svg%3E">
+
   <style>
-    /* Reset and Center */
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #ffffff;
-      font-family: 'Courier New', Courier, monospace;
-    }
-
-    /* The Link "Button" */
-    .archive-link {
-      text-decoration: none;
+      height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      font: 0.9rem 'Courier New', monospace;
       color: #000;
-      font-size: 1.1rem;
       text-align: center;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
       padding: 20px;
-      border: 1px solid transparent;
-      transition: all 0.2s ease;
-      /* Prevents long text from breaking layout on small screens */
-      max-width: 90vw;
-      line-height: 1.5;
+      transition: opacity 0.3s;
     }
 
-    /* Hover/Active states for better feedback */
-    .archive-link:hover {
-      opacity: 0.5;
-    }
+    a:hover { opacity: 0.4; }
 
-    .archive-link:active {
-      background-color: #f0f0f0;
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.7rem;
+      opacity: 0.3;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 <body>
 
-  <a href="https://medium.com/@indirah/moms-networking-notes-1969-7b832122793a" class="archive-link">
+  <a href="https://medium.com/@indirah/moms-networking-notes-1969-7b832122793a">
     Mom’s Networking Notes (1969)
   </a>
+
+  <footer>
+    Andy & Gemini &copy; 2026
+  </footer>
 
 </body>
 </html>
