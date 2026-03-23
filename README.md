@@ -5,14 +5,13 @@
 
 ---
 
-## 🛠 System Recovery Protocol
-If the site layout breaks or requires a reset, replace the content of `index.html` with this **Recovery Seed**. It contains the "DNA" of the design.
+## 🛠 System Recovery Seed (`index.html`)
+If the site breaks, paste this code into `index.html`. It points to the internal `favicon.png`.
 
-### The Recovery Seed (`index.html`)
 ```html
 <!DOCTYPE html>
 <title>Indirah-Dot</title>
-<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" href="favicon.png">
 <style>
   body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;line-height:1.6;color:#222}
   nav a{margin-right:15px;font-weight:700;text-decoration:none;color:#0056b3}
