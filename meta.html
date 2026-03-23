@@ -3,64 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Path of Least Resistance | indirah-dot</title>
+    <title>The Sovereign Build Log | indirah-dot</title>
     <style>
-        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; background: #fafafa; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background: #fafafa; }
         nav { margin-bottom: 50px; }
-        h1 { font-size: 2.2rem; letter-spacing: -0.02em; }
-        h2 { margin-top: 3.5rem; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
-        .chat-block { background: #fff; border: 1px solid #e1e4e8; border-radius: 12px; padding: 15px; margin: 25px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.05); }
-        img { max-width: 100%; height: auto; display: block; border-radius: 6px; }
-        .caption { font-size: 0.85rem; color: #666; margin-top: 12px; font-style: italic; text-align: center; }
-        code { background: #f1f1f1; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
-        .cta { background: #333; color: #fff; padding: 20px; border-radius: 8px; margin-top: 4rem; }
-        .cta a { color: #fff; text-decoration: underline; }
+        h1 { font-size: 2.2rem; letter-spacing: -0.02em; border-bottom: 2px solid #000; padding-bottom: 10px; }
+        h2 { margin-top: 3.5rem; color: #000; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 2rem; }
+        .item { background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        img { max-width: 100%; height: auto; border-radius: 4px; display: block; }
+        .caption { font-size: 0.8rem; color: #666; margin-top: 10px; font-family: monospace; border-top: 1px solid #eee; padding-top: 8px; }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; }
         a { color: #0066cc; text-decoration: none; }
+        footer { margin-top: 5rem; font-size: 0.8rem; color: #999; text-align: center; }
     </style>
 </head>
 <body>
-    <nav><a href="index.html">← Back to the Archive</a></nav>
+    <nav><a href="index.html">← Back to Archive</a></nav>
     
-    <h1>The Path of Least Resistance</h1>
-    <p>Most websites are bloated with tracking, scripts, and noise. For this archive, I wanted the "absolute floor"—raw content, zero scripts, and maximum speed.</p>
+    <h1>The Sovereign Build Log</h1>
+    <p>This page is a transparent look at the <code>/assets</code> folder. It documents the push for extreme minimalism, stripping away the noise of modern social media in favor of a 5-line, zero-JS sovereign site.</p>
 
-    <section>
-        <h2>1. The Challenge</h2>
-        <p>I pushed the AI to stop overcomplicating the code. I wanted "Simple. 10 lines or less."</p>
-        <div class="chat-block">
-            <img src="simple-10-lines.png" alt="Screenshot showing the request for 10 lines of code">
-            <p class="caption">The pivot toward extreme minimalism.</p>
+    <div class="gallery">
+        <div class="item">
+            <img src="assets/IMG_6023.jpg" alt="Initial prompt">
+            <p class="caption">IMG_6023.jpg: The "Rule the Web" spark. Setting the intention for digital authority and scale.</p>
         </div>
-    </section>
 
-    <section>
-        <h2>2. Trimming the Fat</h2>
-        <p>We eventually stripped it down even further. No styling, no headers—just the raw signal. This is the "Sovereign" philosophy: pure power with no bloat.</p>
-        <div class="chat-block">
-            <img src="five-lines.png" alt="Screenshot of the 5-line website code">
-            <p class="caption">"The absolute floor." A valid website in 5 lines.</p>
+        <div class="item">
+            <img src="assets/IMG_6019.PNG" alt="Instagram Noise">
+            <p class="caption">IMG_6019.PNG: Identifying the problem. The "Noise" of modern suggested feeds.</p>
         </div>
-    </section>
 
-    <section>
-        <h2>3. Mobile Infrastructure</h2>
-        <p>To keep the project accessible, we used the <strong>GitHub App</strong> for iPhone. This allowed me to "Direct Cloud Edit" the site while standing in line for coffee.</p>
-        <div class="chat-block">
-            <img src="github-app-setup.png" alt="Screenshot of the GitHub App setup instructions">
-            <p class="caption">Setting up the "One-Handed" deployment.</p>
+        <div class="item">
+            <img src="assets/IMG_6020.PNG" alt="Quiet Mode Tips">
+            <p class="caption">IMG_6020.PNG: Researching "Quiet Mode" and ways to bypass algorithm interference.</p>
         </div>
-    </section>
 
-    <div class="cta">
-        <h3>Want to repeat this?</h3>
-        <p>1. Download the <strong>GitHub App</strong>.<br>
-           2. Create a repo named <code>[username].github.io</code>.<br>
-           3. Commit an <code>index.html</code> file.<br>
-           That's it. You now have the fastest-loading site in Southern California.</p>
+        <div class="item">
+            <img src="assets/IMG_6021.PNG" alt="Request for simple code">
+            <p class="caption">IMG_6021.PNG: The pivot. Rejecting complexity for "10 lines or less."</p>
+        </div>
+
+        <div class="item">
+            <img src="assets/IMG_6024.PNG" alt="9 line website">
+            <p class="caption">IMG_6024.PNG: The first draft. A functional website in 9 lines.</p>
+        </div>
+
+        <div class="item">
+            <img src="assets/IMG_6025.PNG" alt="The 5 line floor">
+            <p class="caption">IMG_6025.PNG: The "Absolute Floor." Stripping everything down to exactly 5 lines.</p>
+        </div>
+
+        <div class="item">
+            <img src="assets/IMG_6026.PNG" alt="GitHub App setup">
+            <p class="caption">IMG_6026.PNG: Moving to mobile. Setting up the GitHub App for iPhone.</p>
+        </div>
+
+        <div class="item">
+            <img src="assets/IMG_6027.PNG" alt="One-handed setup">
+            <p class="caption">IMG_6027.PNG: The "One-Handed" setup instructions. Cloud editing from anywhere.</p>
+        </div>
+
+        <div class="item">
+            <img src="assets/IMG_6028.PNG" alt="Final commit">
+            <p class="caption">IMG_6028.PNG: Final confirmation. The site is live, free, and incredibly fast.</p>
+        </div>
     </div>
 
-    <footer style="margin: 4rem 0; font-size: 0.8rem; color: #999;">
-        Hand-authored in San Diego, 2026.
+    <footer>
+        Hand-authored in San Diego, 2026. <br>
+        All assets stored in <code>indirah-dot.github.io/assets/</code>
     </footer>
 </body>
 </html>
