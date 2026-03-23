@@ -1,62 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sovereign Build: Assets Archive | indirah-dot</title>
-    <style>
-        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; background: #fff; }
-        nav { margin-bottom: 50px; font-weight: bold; }
-        h1 { font-size: 2rem; letter-spacing: -0.02em; border-bottom: 3px solid #000; padding-bottom: 10px; margin-bottom: 2rem; }
-        .intro { margin-bottom: 3rem; font-size: 1.1rem; color: #555; }
-        .gallery { display: flex; flex-direction: column; gap: 40px; }
-        .asset-card { border: 1px solid #eee; padding: 20px; border-radius: 12px; background: #fafafa; }
-        img { max-width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .file-label { display: block; margin-top: 15px; font-family: monospace; font-size: 0.85rem; color: #888; text-align: right; }
-        footer { margin-top: 6rem; padding: 40px 0; border-top: 1px solid #eee; text-align: center; font-size: 0.8rem; color: #aaa; }
-        a { color: #000; text-decoration: none; border-bottom: 1px solid #ccc; }
-        a:hover { border-bottom: 1px solid #000; }
-    </style>
-</head>
-<body>
-    <nav><a href="index.html">← RETURN TO ARCHIVE</a></nav>
-    
-    <h1>Sovereign Build: Assets</h1>
-    <p class="intro">A chronological display of the raw files used to construct this zero-JS environment. This is the "paper trail" of moving from a conceptual prompt to a live, sovereign site.</p>
-
-    <div class="gallery">
-
-        <div class="asset-card">
-            <img src="assets/IMG_6043.pdf" alt="Live site view in Facebook browser">
-            <span class="file-label">IMG_6043.pdf: The 'SOVEREIGN' header live in-app.</span>
-        </div>
-
-        <div class="item-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px;">
-            <div class="asset-card">
-                <img src="assets/IMG_6023.jpg" alt="Initial Prompt">
-                <span class="file-label">IMG_6023.jpg</span>
-            </div>
-            <div class="asset-card">
-                <img src="assets/IMG_6025.PNG" alt="The 5-line code floor">
-                <span class="file-label">IMG_6025.PNG</span>
-            </div>
-        </div>
-
-        <div class="asset-card">
-            <img src="assets/IMG_6027.PNG" alt="GitHub mobile setup">
-            <span class="file-label">IMG_6027.PNG: Mobile deployment workflow.</span>
-        </div>
-
-        <div class="asset-card">
-            <img src="assets/IMG_6028.PNG" alt="Commit confirmation">
-            <span class="file-label">IMG_6028.PNG: Final repository state.</span>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>ALL ASSETS HOSTED LOCALLY IN /ASSETS/ — NO EXTERNAL TRACKING.</p>
-        <p>SAN DIEGO, 2026</p>
-    </footer>
-</body>
-</html>
+<title>Indirah-Dot | Meta</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;line-height:1.6;color:#222}
+  nav a{margin-right:15px;font-weight:700;text-decoration:none;color:#0056b3}
+  header,footer{border-bottom:1px solid #ddd;padding-bottom:10px;margin-bottom:20px}
+  footer{border-top:1px solid #ddd;border-bottom:0;margin-top:50px;font-size:12px}
+  .sop{background:#f9f9f9;padding:15px;border-left:4px solid #0056b3;margin:20px 0}
+</style>
+<header>
+  <h1>Indirah-Dot</h1>
+  <nav><a href="index.html">Home</a><a href="meta.html">Meta</a></nav>
+</header>
+<main>
+  <h2>Meta: Reproduction Protocol</h2>
+  <div class="sop">
+    <ol>
+      <li><strong>Sync:</strong> <code>git pull</code> the latest <code>main</code> branch.</li>
+      <li><strong>Verify Assets:</strong> Confirm <code>favicon.png</code> is in the root directory.</li>
+      <li><strong>Replicate:</strong> Copy <code>index.html</code> code to create any new project pages.</li>
+      <li><strong>Validation:</strong> Open the file locally to confirm <strong>favicon</strong> and <strong>styles</strong> load.</li>
+      <li><strong>Push:</strong> Commit with <code>"System Update"</code> and deploy to GitHub.</li>
+    </ol>
+  </div>
+</main>
+<footer>&copy; 2026</footer>
